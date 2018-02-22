@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #Description: This Script shows the extensions of files within a specified folder and all nested folders.
-#Disclaimer: This Script doesn't guarantee that the extension is a filetype for e.g. file 'abc.txt' will show extension as 'txt' but files 'abcd.abc' and 'abc' will show extensions as 'abc' even though they are not valid filetypes.
+#Disclaimer: This Script doesn't guarantee that the extension is a filetype for e.g. file 'abc.txt' will show extension as 'txt' 
+#            but files 'abcd.abc' and 'abc' will show extensions as 'abc' even though they are not valid filetypes.
 
 exit_on_signal_SIGINT () {
 echo "Script interrupted." 2>&1
