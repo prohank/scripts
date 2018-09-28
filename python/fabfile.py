@@ -2,6 +2,20 @@ import csv
 
 # install fabric version < 2 following script is for less than v2.0
 # $pip install 'fabric<2.0'
+# execute command as below
+# @task implies and command
+# fab set_servers:<server-group-which-you-are-passing-as-argument-to-method> echo_server_name 
+# e.g. $fab set_servers:stage-server-list1 echo_server_name
+
+# NOTE: 
+# 1. fab command will call any file with name fabfile or fabfile.py,
+# 2. File name should be fabfile or fabfile.py
+# 3. There should be one and only one file in particular directory
+
+# more info: https://www.pythonforbeginners.com/systems-programming/how-to-use-fabric-in-python
+# http://docs.fabfile.org/en/2.4/getting-started.html#addendum-the-fab-command-line-tool
+# https://github.com/fabric/fabric
+
 
 from fabric.api import env, parallel, run, task
 
