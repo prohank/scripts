@@ -1,4 +1,7 @@
 # Using python 2.7.15
+# We are converting String to raw string since String has special escape characters and we want it as characters instead of escape
+# characters hence prefixing it with r, 
+# if you concate operation then all strings should be of raw string else final string will not be an raw string.
 
 import os
 import sys
