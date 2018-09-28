@@ -72,6 +72,9 @@ line_num = 0
 # ---------------------------------------------------------
 print "replaced text at lines :"
 
+# reason why we newfile.flush() after write is because file is big~100MB and sometime python process terminates in middle of file
+# processing, hence flusing each line after line read
+
 start = current_milli_time()
 with open(path + '/alerts.json', 'r') as file:
     for line in file:
