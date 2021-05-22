@@ -1,0 +1,62 @@
+<TaskerData sr="" dvi="1" tv="5.12.21">
+	<Profile sr="prof69" ve="2">
+		<cdate>1544617630250</cdate>
+		<clp>true</clp>
+		<edate>1589976132861</edate>
+		<id>69</id>
+		<mid0>70</mid0>
+		<nme>Restart Phone</nme>
+		<Time sr="con0">
+			<fh>23</fh>
+			<fm>59</fm>
+			<rep>1</rep>
+			<repval>6</repval>
+			<th>0</th>
+			<tm>0</tm>
+		</Time>
+	</Profile>
+	<Task sr="task70">
+		<cdate>1544617635106</cdate>
+		<edate>1589976132861</edate>
+		<id>70</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%UPS</lhs>
+					<op>7</op>
+					<rhs>260000</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%UPSHrs</Str>
+			<Str sr="arg1" ve="3">%UPS/3600</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Restart Phone</Str>
+			<Str sr="arg1" ve="3">System up time %UPSHrs</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7"/>
+			<Int sr="arg8"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+</TaskerData>

@@ -1,0 +1,28 @@
+<TaskerData sr="" dvi="1" tv="5.12.21">
+	<Profile sr="prof58" ve="2">
+		<cdate>1573196636956</cdate>
+		<clp>true</clp>
+		<edate>1573202821664</edate>
+		<id>58</id>
+		<mid0>75</mid0>
+		<nme>Blocked Calls</nme>
+		<State sr="con0" ve="2">
+			<code>40</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Blocked</Str>
+		</State>
+	</Profile>
+	<Task sr="task75">
+		<cdate>1573196648273</cdate>
+		<edate>1621662522588</edate>
+		<id>75</id>
+		<nme>Block Call</nme>
+		<Action sr="act0" ve="7">
+			<code>733</code>
+			<Bundle sr="arg0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_content_block</nme>
+		</Img>
+	</Task>
+</TaskerData>

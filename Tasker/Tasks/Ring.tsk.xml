@@ -1,0 +1,18 @@
+<TaskerData sr="" dvi="1" tv="5.12.21">
+	<Task sr="task89">
+		<cdate>1621571736589</cdate>
+		<edate>1621571822716</edate>
+		<id>89</id>
+		<nme>Ring</nme>
+		<Action sr="act0" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="1000"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>192</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">Osmium</Str>
+			<Int sr="arg2" val="4"/>
+		</Action>
+	</Task>
+</TaskerData>

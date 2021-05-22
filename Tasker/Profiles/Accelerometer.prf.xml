@@ -1,0 +1,42 @@
+<TaskerData sr="" dvi="1" tv="5.12.21">
+	<Profile sr="prof5" ve="2">
+		<cdate>1429887735851</cdate>
+		<clp>true</clp>
+		<edate>1591551449723</edate>
+		<id>5</id>
+		<mid0>6</mid0>
+		<mid1>7</mid1>
+		<nme>Accelerometer</nme>
+		<App sr="con0" ve="2">
+			<cls0>com.google.android.apps.photos.home.HomeActivity</cls0>
+			<cls1>com.google.android.youtube.app.honeycomb.Shell$HomeActivity</cls1>
+			<cls2>org.videolan.vlc.StartActivity</cls2>
+			<flags>2</flags>
+			<label0>Photos</label0>
+			<label1>YouTube</label1>
+			<label2>VLC</label2>
+			<pkg0>com.google.android.apps.photos</pkg0>
+			<pkg1>com.google.android.youtube</pkg1>
+			<pkg2>org.videolan.vlc</pkg2>
+		</App>
+	</Profile>
+	<Task sr="task6">
+		<cdate>1429887741835</cdate>
+		<edate>1573979008412</edate>
+		<id>6</id>
+		<Action sr="act0" ve="7">
+			<code>822</code>
+			<Int sr="arg0" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task7">
+		<cdate>1429887798028</cdate>
+		<edate>1453965922974</edate>
+		<id>7</id>
+		<pri>1006</pri>
+		<Action sr="act0" ve="7">
+			<code>822</code>
+			<Int sr="arg0" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

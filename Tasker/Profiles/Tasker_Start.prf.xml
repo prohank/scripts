@@ -1,0 +1,31 @@
+<TaskerData sr="" dvi="1" tv="5.12.21">
+	<Profile sr="prof78" ve="2">
+		<cdate>1594891417507</cdate>
+		<edate>1621664475746</edate>
+		<flags>8</flags>
+		<id>78</id>
+		<mid0>79</mid0>
+		<nme>Tasker Start</nme>
+		<Event sr="con0" ve="2">
+			<code>307</code>
+			<pri>0</pri>
+		</Event>
+	</Profile>
+	<Task sr="task79">
+		<cdate>1594891431313</cdate>
+		<edate>1594891500687</edate>
+		<id>79</id>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>20</code>
+			<App sr="arg0">
+				<appClass>com.oasisfeng.greenify.GreenifyActivity</appClass>
+				<appPkg>com.oasisfeng.greenify</appPkg>
+				<label>Greenify</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

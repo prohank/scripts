@@ -1,0 +1,55 @@
+<TaskerData sr="" dvi="1" tv="5.12.21">
+	<Profile sr="prof13" ve="2">
+		<cdate>1430997829319</cdate>
+		<clp>true</clp>
+		<edate>1592500016457</edate>
+		<id>13</id>
+		<mid0>14</mid0>
+		<mid1>15</mid1>
+		<nme>Screen Time Out</nme>
+		<App sr="con0" ve="2">
+			<cls0>com.evernote.ui.HomeActivity</cls0>
+			<cls1>com.google.android.maps.MapsActivity</cls1>
+			<cls2>com.google.android.apps.photos.home.HomeActivity</cls2>
+			<cls3>com.google.android.apps.docs.app.NewMainProxyActivity</cls3>
+			<cls4>com.whatsapp.Main</cls4>
+			<cls5>com.mixplorer.activities.BrowseActivity</cls5>
+			<flags>2</flags>
+			<label0>Evernote</label0>
+			<label1>Maps</label1>
+			<label2>Photos</label2>
+			<label3>Sheets</label3>
+			<label4>WhatsApp</label4>
+			<label5>MiX</label5>
+			<pkg0>com.evernote</pkg0>
+			<pkg1>com.google.android.apps.maps</pkg1>
+			<pkg2>com.google.android.apps.photos</pkg2>
+			<pkg3>com.google.android.apps.docs.editors.sheets</pkg3>
+			<pkg4>com.whatsapp</pkg4>
+			<pkg5>com.mixplorer</pkg5>
+		</App>
+	</Profile>
+	<Task sr="task14">
+		<cdate>1430997832309</cdate>
+		<edate>1518862267308</edate>
+		<id>14</id>
+		<Action sr="act0" ve="7">
+			<code>812</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task15">
+		<cdate>1430997988769</cdate>
+		<edate>1430998008346</edate>
+		<id>15</id>
+		<pri>1006</pri>
+		<Action sr="act0" ve="7">
+			<code>812</code>
+			<Int sr="arg0" val="30"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

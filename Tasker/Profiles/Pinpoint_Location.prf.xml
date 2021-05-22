@@ -1,0 +1,38 @@
+<TaskerData sr="" dvi="1" tv="5.12.21">
+	<Profile sr="prof33" ve="2">
+		<cdate>1569386874225</cdate>
+		<clp>true</clp>
+		<edate>1588844962795</edate>
+		<id>33</id>
+		<mid0>34</mid0>
+		<mid1>43</mid1>
+		<nme>Pinpoint Location</nme>
+		<App sr="con0" ve="2">
+			<cls0>com.google.android.maps.MapsActivity</cls0>
+			<cls1>com.olacabs.lite.SplashActivity</cls1>
+			<flags>2</flags>
+			<label0>Maps</label0>
+			<label1>Ola Lite</label1>
+			<pkg0>com.google.android.apps.maps</pkg0>
+			<pkg1>com.olacabs.lite</pkg1>
+		</App>
+	</Profile>
+	<Task sr="task34">
+		<cdate>1569386879237</cdate>
+		<edate>1588844962795</edate>
+		<id>34</id>
+		<Action sr="act0" ve="7">
+			<code>905</code>
+			<Int sr="arg0" val="3"/>
+		</Action>
+	</Task>
+	<Task sr="task43">
+		<cdate>1569386951144</cdate>
+		<edate>1569386975298</edate>
+		<id>43</id>
+		<Action sr="act0" ve="7">
+			<code>905</code>
+			<Int sr="arg0" val="2"/>
+		</Action>
+	</Task>
+</TaskerData>

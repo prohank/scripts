@@ -1,0 +1,92 @@
+<TaskerData sr="" dvi="1" tv="5.12.21">
+	<Profile sr="prof64" ve="2">
+		<cdate>1506477457809</cdate>
+		<clp>true</clp>
+		<edate>1569860050178</edate>
+		<id>64</id>
+		<mid0>61</mid0>
+		<mid1>60</mid1>
+		<nme>Battery 5pc</nme>
+		<State sr="con0" ve="2">
+			<code>140</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="5"/>
+		</State>
+		<State sr="con1" ve="2">
+			<code>10</code>
+			<pin>true</pin>
+			<Int sr="arg0" val="0"/>
+		</State>
+		<State sr="con2" ve="2">
+			<code>40</code>
+			<pin>true</pin>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3"/>
+		</State>
+	</Profile>
+	<Task sr="task60">
+		<cdate>1511530136776</cdate>
+		<edate>1569860050178</edate>
+		<id>60</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">Alarm Scene</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>333</code>
+			<Int sr="arg0" val="0"/>
+			<Bundle sr="arg1"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>810</code>
+			<Int sr="arg0" val="35"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task61">
+		<cdate>1511530181756</cdate>
+		<edate>1569860041700</edate>
+		<id>61</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>333</code>
+			<Int sr="arg0" val="1"/>
+			<Bundle sr="arg1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>901</code>
+			<Int sr="arg0" val="2"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>433</code>
+			<Int sr="arg0" val="0"/>
+			<Bundle sr="arg1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>810</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Switch Off</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

@@ -1,0 +1,59 @@
+<TaskerData sr="" dvi="1" tv="5.12.21">
+	<Profile sr="prof37" ve="2">
+		<cdate>1477038687015</cdate>
+		<clp>true</clp>
+		<edate>1621663979844</edate>
+		<id>37</id>
+		<limit>true</limit>
+		<mid0>36</mid0>
+		<nme>Notification Read Aloud</nme>
+		<Event sr="con0" ve="2">
+			<code>461</code>
+			<pri>1</pri>
+			<App sr="arg0">
+				<appClass></appClass>
+				<appPkg></appPkg>
+				<label>*</label>
+			</App>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Int sr="arg7" val="1"/>
+		</Event>
+		<State sr="con1" ve="2">
+			<code>40</code>
+			<pin>true</pin>
+			<Int sr="arg0" val="2"/>
+			<Str sr="arg1" ve="3"/>
+		</State>
+		<State sr="con2" ve="2">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+		</State>
+		<State sr="con3" ve="2">
+			<code>141</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="350"/>
+		</State>
+	</Profile>
+	<Task sr="task36">
+		<cdate>1478625489375</cdate>
+		<edate>1621663979844</edate>
+		<id>36</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>559</code>
+			<Str sr="arg0" ve="3">New %evtprm1 message; %evtprm2</Str>
+			<Str sr="arg1" ve="3">com.google.android.tts:eng-usa</Str>
+			<Int sr="arg2" val="5"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>

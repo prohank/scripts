@@ -1,0 +1,51 @@
+<TaskerData sr="" dvi="1" tv="5.12.21">
+	<Profile sr="prof2" ve="2">
+		<cdate>1472583427773</cdate>
+		<clp>true</clp>
+		<edate>1621571657790</edate>
+		<id>2</id>
+		<limit>true</limit>
+		<mid0>3</mid0>
+		<nme>Notifier</nme>
+		<Time sr="con0">
+			<fh>23</fh>
+			<fm>50</fm>
+			<th>23</th>
+			<tm>50</tm>
+		</Time>
+	</Profile>
+	<Task sr="task3">
+		<cdate>1472583625203</cdate>
+		<edate>1621571657790</edate>
+		<id>3</id>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Notifier</Str>
+			<Str sr="arg1" ve="3">Reminder for ...</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>hd_device_access_alarms</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="3"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3">/system/media/audio/alarms/Oxygen.ogg</Str>
+			<ListElementItem sr="item0">
+				<label>Cancel</label>
+				<Action sr="action" ve="7">
+					<code>779</code>
+					<Str sr="arg0" ve="3">Notifier</Str>
+					<Int sr="arg1" val="0"/>
+				</Action>
+			</ListElementItem>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_action_alarm</nme>
+		</Img>
+	</Task>
+</TaskerData>

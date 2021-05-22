@@ -1,0 +1,185 @@
+<TaskerData sr="" dvi="1" tv="5.12.21">
+	<Task sr="task18">
+		<cdate>1422123302947</cdate>
+		<edate>1621662412035</edate>
+		<id>18</id>
+		<nme>Mi Band Export Stats</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Mi Band Data Backup</Str>
+			<Str sr="arg1" ve="3">Backup in progress</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>mw_places_fitness_center</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>123</code>
+			<label>ALL</label>
+			<Str sr="arg0" ve="3">cp /data/data/com.xiaomi.hm.health/databases/origin_db_eba7b678edbad2be35ee5b1914572e49 /data/miband/origin_db
+
+cp /data/data/com.xiaomi.hm.health/databases/origin_db_eba7b678edbad2be35ee5b1914572e49-journal /data/miband/origin_db-journal
+
+cd /data/miband
+
+export LD_LIBRARY_PATH=/vendor/lib*:/system/lib*
+
+/data/miband/sqlite3 origin_db &lt; parse.sql
+
+cp /data/miband/extract.csv /sdcard/data/miband/Mi_Band_Table.csv
+
+cp /data/miband/origin_db /sdcard/data/miband/origin_db_%DATE.db
+
+cp /data/miband/extract.js /sdcard/data/miband/extract.js
+
+cp /data/miband/config.js /sdcard/data/miband/config.js
+
+cp /data/miband/locale.js /sdcard/data/miband/locale.js
+
+cp /data/miband/app_locale.js /sdcard/data/miband/app_locale.js
+
+cp /data/miband/Mi_Band_Table.html /sdcard/data/miband/Mi_Band_Table.html
+
+cp /data/miband/Mi_Band_Graphs.html /sdcard/data/miband/Mi_Band_Graphs.html
+
+rm /data/miband/app_locale.js
+
+rm /data/miband/extract.csv
+
+rm /data/miband/extract.js
+
+rm /data/miband/origin_db
+
+rm /data/miband/origin_db-journal</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Mi Band Data Backup</Str>
+			<Str sr="arg1" ve="3">Backup Uploading...</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>mw_places_fitness_center</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>321</code>
+			<label>Drive</label>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%gd_id()
+File ID
+Unique ID for the file on Google Drive&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%gd_name()
+File Name
+Name of the file on Google Drive&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%gd_size()
+File Size
+Size of the file (in bytes) on Google Drive&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%gd_time()
+File Time
+The last time the file was modified by anyone. Expressed in Seconds since Epoch (similar to %TIMES)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%gd_md5()
+MD5
+MD5 checksum of the file on Google Drive&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%gd_mimetype()
+Mime Type
+Type of the file on Google Drive&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%gd_uploaded()
+Uploaded
+true if file was uploaded, false otherwise&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%gd_weburl()
+Web URL
+URL that can be used to show the file on your Google Drive&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">rohan.patel002@gmail.com</Str>
+			<Str sr="arg2" ve="3">data/miband</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">Backups/miband</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%err</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Mi Band Data Backup</Str>
+			<Str sr="arg1" ve="3">Uploading failed. %errmsg</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>mw_places_fitness_center</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="2"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+			<ListElementItem sr="item0">
+				<label>Cancel</label>
+				<Action sr="action" ve="7">
+					<code>779</code>
+					<Str sr="arg0" ve="3">Mi Band Data Backup</Str>
+					<Int sr="arg1" val="0"/>
+				</Action>
+				<Img sr="icon" ve="2">
+					<nme>mw_navigation_cancel</nme>
+				</Img>
+			</ListElementItem>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">Mi Band Data Backup</Str>
+			<Str sr="arg1" ve="3">Backup Uploaded to Drive</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<nme>mw_places_fitness_center</nme>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+		<Img sr="icn" ve="2">
+			<nme>mw_places_fitness_center</nme>
+		</Img>
+	</Task>
+</TaskerData>
